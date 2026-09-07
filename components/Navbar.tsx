@@ -52,9 +52,9 @@ export default function Navbar() {
       {isMenuOpen && (
         <div className="mobile-menu absolute top-[70px] left-0 w-full bg-white p-6 md:hidden">
           <ul className="flex flex-col space-y-4 text-lg">
-            <li><a href="#" className="text-sm">Home</a></li>
-            <li><a href="#" className="text-sm">Services</a></li>
-            <li><a href="#" className="text-sm">Portfolio</a></li>
+            <li><a href="#" className="text-sm">Product</a></li>
+            <li><a href="#" className="text-sm">Pricing </a></li>
+            <li><a href="#" className="text-sm">FAQS</a></li>
             <li><a href="#" className="text-sm">Pricing</a></li>
           </ul>
 
@@ -62,7 +62,7 @@ export default function Navbar() {
             type="button"
             className="bg-white text-gray-600 border border-gray-300 mt-6 text-sm hover:bg-gray-50 active:scale-95 transition-all w-40 h-11 rounded-full"
           >
-            Get started
+            See Plans
           </button>
         </div>
       )}
