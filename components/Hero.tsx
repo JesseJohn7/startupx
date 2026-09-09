@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-   <main className="bg-white flex flex-col md:flex-row items-center max-md:text-center justify-between pt-16 pb-16 px-6 sm:px-10 md:px-24 max-w-7xl mx-auto w-full">
+    <main className="bg-white flex flex-col md:flex-row items-center max-md:text-center justify-between pt-6 pb-16 px-6 sm:px-10 md:px-24 max-w-7xl mx-auto w-full">
       <div className="flex flex-col items-center md:items-start">
         <button
           type="button"
-          className="mt-16 mb-6 flex items-center space-x-2 border border-indigo-600 text-indigo-600 text-xs rounded-full px-4 pr-1.5 py-1.5 hover:bg-indigo-50 transition"
+          className="mb-6 flex items-center space-x-2 border border-indigo-600 text-indigo-600 text-xs rounded-full px-4 pr-1.5 py-1.5 hover:bg-indigo-50 transition"
         >
           <span>Explore how we help grow brands.</span>
           <span className="flex items-center justify-center size-6 p-1 rounded-full bg-indigo-600">
