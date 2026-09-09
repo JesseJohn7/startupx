@@ -24,7 +24,7 @@ export default function Navbar() {
         </svg>
       </Link>
 
-      <ul className="md:flex hidden items-center gap-10">
+      <ul className="md:flex hidden items-center gap-10 text-sm">
         <li><a className="hover:text-gray-500/80 transition" href="#">Home</a></li>
         <li><a className="hover:text-gray-500/80 transition" href="#">Services</a></li>
         <li><a className="hover:text-gray-500/80 transition" href="#">Portfolio</a></li>
