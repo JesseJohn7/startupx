@@ -51,7 +51,7 @@ export default function Applications() {
             Applications
           </p>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-900">
-            A complete suite — simple to start with.
+            A complete suite simple to start with.
           </h2>
           <p className="mt-4 text-gray-500 text-sm sm:text-base leading-relaxed">
             POS, stock, invoices, customers, accounting and payments first —
