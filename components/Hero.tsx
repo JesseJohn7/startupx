@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <main className="bg-white flex flex-col md:flex-row items-center max-md:text-center justify-between pt-6 pb-16 px-6 sm:px-10 md:px-24 max-w-7xl mx-auto w-full">
       <div className="flex flex-col items-center md:items-start">
-        <button
+        {/* <button
           type="button"
           className="mb-6 flex items-center space-x-2 border border-indigo-600 text-indigo-600 text-xs rounded-full px-4 pr-1.5 py-1.5 hover:bg-indigo-50 transition"
         >
@@ -26,7 +26,7 @@ export default function Hero() {
               />
             </svg>
           </span>
-        </button>
+        </button> */}
 
         <h1 className="text-gray-900 font-semibold text-3xl sm:text-4xl md:text-5xl max-w-xl">
           One platform to run your{" "}
