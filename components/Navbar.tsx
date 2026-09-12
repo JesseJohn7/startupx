@@ -15,8 +15,8 @@ export default function Navbar() {
       <ul className="md:flex hidden items-center gap-10 text-sm">
         <li><a className="hover:text-gray-500/80 transition" href="#">Product</a></li>
         <li><a className="hover:text-gray-500/80 transition" href="#">Pricing</a></li>
+        <li><a className="hover:text-gray-500/80 transition" href="#">Testimonials</a></li>
         <li><a className="hover:text-gray-500/80 transition" href="#">FAQS</a></li>
-        <li><a className="hover:text-gray-500/80 transition" href="#">Pricing</a></li>
       </ul>
 
       <button
@@ -42,8 +42,8 @@ export default function Navbar() {
           <ul className="flex flex-col space-y-4 text-lg">
             <li><a href="#" className="text-sm">Product</a></li>
             <li><a href="#" className="text-sm">Pricing </a></li>
+            <li><a href="#" className="text-sm">Testimonials</a></li>
             <li><a href="#" className="text-sm">FAQS</a></li>
-            <li><a href="#" className="text-sm">Pricing</a></li>
           </ul>
 
           <button
