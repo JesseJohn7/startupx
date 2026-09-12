@@ -43,7 +43,7 @@ const stats = [
 
 export default function Applications() {
   return (
-    <section className="bg-white w-full overflow-x-hidden px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+    <section className="bg-white w-full overflow-x-hidden px-4 sm:px-6 lg:px-8 py-16 sm:py-20 ">
       <div className="max-w-6xl mx-auto">
         {/* Eyebrow + heading */}
         <div className="text-center max-w-2xl mx-auto mb-12">

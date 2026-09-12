@@ -3,6 +3,8 @@ import Navbar from "@/components/Navbar"
 import Hero from "@/components/Hero"
 import Applications from "@/components/Application"
 import Pricing from "@/components/Pricing"
+import Faqs from "@/components/Faqs"
+
 export default function Home() {
   return (
     <> 
@@ -10,6 +12,7 @@ export default function Home() {
     <Hero />
     <Applications />
     <Pricing/>
+    <Faqs/>
     </>
   );
 }
