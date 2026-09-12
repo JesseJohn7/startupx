@@ -1,16 +1,16 @@
 import {
+  Hospital,
+  Shirt,
   ShoppingCart,
   Package,
-  FileText,
+  Wallet,
+  GraduationCap,
   Users,
   Calculator,
+  UserCog,
   Store,
   CreditCard,
-  UserCog,
-  ShoppingBag,
   BarChart3,
-  FolderOpen,
-  ClipboardList,
   type LucideIcon,
 } from "lucide-react";
 
@@ -20,25 +20,25 @@ type App = {
 };
 
 const apps: App[] = [
-  { name: "Caisse POS", icon: ShoppingCart },
-  { name: "Stock", icon: Package },
-  { name: "Factures", icon: FileText },
+  { name: "Hospital Management", icon: Hospital },
+  { name: "Laundry Management", icon: Shirt },
+  { name: "POS", icon: ShoppingCart },
+  { name: "Inventory", icon: Package },
+  { name: "Payroll", icon: Wallet },
+  { name: "School Management", icon: GraduationCap },
   { name: "CRM", icon: Users },
-  { name: "Comptabilité", icon: Calculator },
+  { name: "Accounting", icon: Calculator },
+  { name: "HR", icon: UserCog },
   { name: "E-commerce", icon: Store },
-  { name: "Paiements", icon: CreditCard },
-  { name: "RH", icon: UserCog },
-  { name: "Achats", icon: ShoppingBag },
-  { name: "BI", icon: BarChart3 },
-  { name: "GED", icon: FolderOpen },
-  { name: "Projets", icon: ClipboardList },
+  { name: "Payments", icon: CreditCard },
+  { name: "Analytics", icon: BarChart3 },
 ];
 
 const stats = [
-  { value: "30+", label: "Integrated applications", sub: "On-demand activation" },
-  { value: "27+", label: "Countries supported", sub: "Africa & international" },
+  { value: "10+", label: "Integrated applications", sub: "On-demand activation" },
+  { value: "24/7", label: "System uptime", sub: "Always available" },
   { value: "3 min", label: "Time to deploy", sub: "No installation" },
-  { value: "0", label: "To get started", sub: "14-day free trial plan" },
+  { value: "0", label: "To get started", sub: "Free trial plan" },
 ];
 
 export default function Applications() {
@@ -54,7 +54,7 @@ export default function Applications() {
             A complete suite simple to start with.
           </h2>
           <p className="mt-4 text-gray-500 text-sm sm:text-base leading-relaxed">
-            POS, stock, invoices, customers, accounting and payments first —
+            Hospital, school, POS, inventory and payroll management first —
             the rest follows as you grow.
           </p>
         </div>
@@ -80,7 +80,7 @@ export default function Applications() {
             type="button"
             className="text-indigo-600 border border-indigo-600 text-sm font-medium px-6 py-2.5 rounded-full hover:bg-indigo-50 transition"
           >
-            Browse all 30+ applications
+            See more
           </button>
         </div>
 
