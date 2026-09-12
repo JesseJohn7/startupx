@@ -8,7 +8,7 @@ export default function Hero() {
           type="button"
           className="mb-6 flex items-center space-x-2 border border-indigo-600 text-indigo-600 text-xs rounded-full px-4 pr-1.5 py-1.5 hover:bg-indigo-50 transition"
         >
-          <span>Explore how we help grow brands.</span>
+          <span>All-in-one management software for every industry</span>
           <span className="flex items-center justify-center size-6 p-1 rounded-full bg-indigo-600">
             <svg
               width="14"
@@ -29,13 +29,14 @@ export default function Hero() {
         </button>
 
         <h1 className="text-gray-900 font-semibold text-3xl sm:text-4xl md:text-5xl max-w-xl">
-          Preferred choice of leaders in{" "}
-          <span className="text-indigo-600">every industry</span>
+          One platform to run your{" "}
+          <span className="text-indigo-600">entire business</span>
         </h1>
 
         <p className="mt-4 text-gray-600 max-w-md text-sm sm:text-base leading-relaxed">
-          Learn why professionals trust our solution to complete their
-          customer journey.
+          From hospitals and schools to laundry shops and retail stores —
+          manage POS, inventory, payroll and more, all in one simple,
+          reliable system.
         </p>
 
         <div className="flex flex-col md:flex-row items-center mt-8 gap-3">
@@ -65,7 +66,7 @@ export default function Hero() {
             href="#"
             className="text-indigo-600 bg-indigo-100 px-8 py-4 rounded-full text-sm font-medium hover:bg-indigo-200 transition"
           >
-            Try Free Demo 
+            Try Free Demo
           </a>
         </div>
       </div>
