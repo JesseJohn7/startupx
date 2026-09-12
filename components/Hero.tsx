@@ -65,7 +65,7 @@ export default function Hero() {
             href="#"
             className="text-indigo-600 bg-indigo-100 px-8 py-4 rounded-full text-sm font-medium hover:bg-indigo-200 transition"
           >
-            Try Demo 
+            Try Free Demo 
           </a>
         </div>
       </div>
