@@ -48,7 +48,7 @@ const plans: Plan[] = [
   },
 ];
 
-function CheckIcon({ color = "#6366F1" }: { color?: string }) {
+function CheckIcon() {
   return (
     <svg
       width="18"
@@ -60,7 +60,7 @@ function CheckIcon({ color = "#6366F1" }: { color?: string }) {
     >
       <path
         d="M7.162 13.5 2.887 9.225l1.07-1.069 3.205 3.207 6.882-6.882 1.069 1.07z"
-        fill={color}
+        fill="#ffffff"
       />
     </svg>
   );
@@ -68,15 +68,28 @@ function CheckIcon({ color = "#6366F1" }: { color?: string }) {
 
 export default function Pricing() {
   return (
-    <div className="bg-white w-full overflow-x-hidden px-4 py-12">
+    <div className="bg-white w-full overflow-x-hidden px-4 py-12 sm:py-16">
+      <div className="text-center max-w-2xl mx-auto mb-12">
+        <p className="text-indigo-600 text-sm font-semibold tracking-wide uppercase mb-3">
+          Pricing
+        </p>
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-900">
+          Simple, transparent pricing.
+        </h2>
+        <p className="mt-4 text-gray-500 text-sm sm:text-base leading-relaxed">
+          Start free. Scale when you&apos;re ready. Pick the plan that fits
+          your business today.
+        </p>
+      </div>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto items-stretch">
         {plans.map((plan) => (
           <div
             key={plan.name}
-            className={`w-full max-w-72 mx-auto relative text-center border rounded-lg p-6 ${
+            className={`w-full max-w-72 mx-auto relative text-center bg-black text-white border rounded-lg p-6 ${
               plan.highlighted
-                ? "bg-black text-white border-black pb-14 shadow-md"
-                : "bg-white text-gray-800/80 border-gray-200 pb-16"
+                ? "border-indigo-500 pb-14 shadow-lg ring-1 ring-indigo-500"
+                : "border-gray-800 pb-16"
             }`}
           >
             {plan.badge && (
@@ -91,23 +104,15 @@ export default function Pricing() {
 
             <h1 className="text-3xl font-semibold">
               ${plan.price}
-              <span
-                className={`text-sm font-normal ${
-                  plan.highlighted ? "text-gray-300" : "text-gray-500"
-                }`}
-              >
+              <span className="text-sm font-normal text-gray-400">
                 /month
               </span>
             </h1>
 
-            <ul
-              className={`list-none text-sm mt-6 space-y-1 text-left sm:text-center ${
-                plan.highlighted ? "text-gray-300" : "text-gray-500"
-              }`}
-            >
+            <ul className="list-none text-sm mt-6 space-y-1 text-left sm:text-center text-gray-300">
               {plan.features.map((feature) => (
                 <li key={feature} className="flex items-center gap-2">
-                  <CheckIcon color={plan.highlighted ? "#ffffff" : "#6366F1"} />
+                  <CheckIcon />
                   <p>{feature}</p>
                 </li>
               ))}
@@ -115,11 +120,7 @@ export default function Pricing() {
 
             <button
               type="button"
-              className={`text-sm w-full py-2 rounded font-medium mt-7 transition-all ${
-                plan.highlighted
-                  ? "bg-white text-black hover:bg-gray-200"
-                  : "bg-indigo-500 text-white hover:bg-indigo-600"
-              }`}
+              className="text-sm w-full py-2 rounded font-medium mt-7 transition-all bg-white text-black hover:bg-gray-200"
             >
               Get Started
             </button>
