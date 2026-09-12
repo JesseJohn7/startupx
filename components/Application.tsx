@@ -54,7 +54,7 @@ export default function Applications() {
             A complete suite simple to start with.
           </h2>
           <p className="mt-4 text-gray-500 text-sm sm:text-base leading-relaxed">
-            Hospital, school, POS, inventory and payroll management first —
+            Hospital, school, POS, inventory and payroll management first 
             the rest follows as you grow.
           </p>
         </div>

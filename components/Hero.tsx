@@ -34,7 +34,7 @@ export default function Hero() {
         </h1>
 
         <p className="mt-4 text-gray-600 max-w-md text-sm sm:text-base leading-relaxed">
-          From hospitals and schools to laundry shops and retail stores —
+          From hospitals and schools to laundry shops and retail stores
           manage POS, inventory, payroll and more, all in one simple,
           reliable system.
         </p>
